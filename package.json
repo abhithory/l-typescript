@@ -1,0 +1,16 @@
+{
+  "name": "d-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"(parcel serve ./index.html) & (parcel watch ./index.html)"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "prettier": "3.0.1"
+  }
+}
